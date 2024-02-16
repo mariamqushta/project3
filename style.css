@@ -1,0 +1,155 @@
+body{
+    height: 900px;}
+.r{
+    font-size: 20px;
+}
+.s {
+    text-decoration: none;
+    font-size: 40px !important;
+    background : -webkit-linear-gradient(top,rgb(12, 129, 196),rgb(5, 251, 186),rgb(12, 129, 196),white);
+    -webkit-background-clip: text;
+    color:transparent;
+}.s:hover{
+    background : -webkit-linear-gradient(top,rgb(12, 129, 196),rgb(5, 251, 186),rgb(12, 129, 196),white);
+    -webkit-background-clip: text;
+    color:transparent;
+}.bgg{
+    background:-webkit-Linear-gradient(top,rgb(195, 111, 182), rgb(65, 225, 225));
+}.bbg{
+    background-color: rgb(152, 222, 218);
+    
+}.bbg:active{
+    background-color:rgb(96, 193, 195);
+}
+
+.co{
+    background-color: rgb(11, 209, 209);
+}.si{
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-attachment:fixed ;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-image: url(../imags11/Aquarium.jpg) ;
+}
+.icon{
+    position: relative;
+    transform: translateY(20);
+}.icon i{
+    position: fixed;
+    display: block;
+    z-index: 9;
+    right: 10px;
+    top:20%;
+    color:rgb(18, 233, 222);   
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    line-height: 60px;}
+    .icon i:hover{
+      color: rgb(4, 241, 162);
+    }  
+    .car::after{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        top: 0;
+        left: 0;
+        background-color:rgb(21, 208, 233);
+        opacity: 0;
+        transition: 2s;
+    }.car:hover::after{
+        width: 100%;
+        height: 100%;
+        opacity:0.5;}
+    .car::before{
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        bottom: 0;
+        right: 0;
+        background-color:rgb(21, 208, 233);
+        opacity: 0;
+        transition: 2s;
+    }.car:hover::before{
+        width: 100%;
+        height: 100%;
+        opacity:0.5;}
+        .ci{
+            width: 100%;
+            height: 350px;
+            background-size: cover;
+            background-attachment:fixed ;
+            background-position: center;
+            background-repeat:no-repeat ;
+            background-image: url(../imags11/dc711377-ce5e-4b72-9c50-b6701b6ebf3d.jpg) ;
+           
+        }
+        .first{
+            width: 100%;
+            height: 450px;
+            background-image:url(../imags11/Banking.jpg);
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }.second{
+            width: 100%;
+            height: 450px;
+            background-image:url(../imags11/8a914944-b2c6-461a-b775-02fd8c5034a6.jpg);
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }.third{
+            width: 100%;
+            height: 450px;
+            background-image:url(../imags11/3091b81a-7de0-4008-bbc2-765cbc0819f2.jpg);
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        .overlay1{
+            position:absolute;
+            width: 100%;
+            height: 100%;
+            /* background-color: rgba(103, 9, 153, 0.7); */
+            background-color: rgba(69, 75, 78, 0.7);
+            /* background-color:rgb(102, 130, 144,0.7); */
+        }.dd4{
+            position: relative;
+            transition: 0.5s;
+        }.dd4:hover{
+            transform: scale(0.9,0.9)
+           
+        }.overlay1:hover{
+            background-color:rgba(30, 24, 102, 0.7);
+        } .hr1{
+            width: 100px;
+            height: 5px;
+            transition: 2s;
+        }.coi{
+            background : -webkit-linear-gradient(left,rgb(2, 158, 248),rgb(5, 230, 251),rgb(69, 221, 203),white); 
+        }
+        .coi:hover .hr1{
+            width: 200px;
+        } .im{
+            
+            box-shadow:3px 3px 50px 3px rgb(78, 78, 116)  ;
+        }.imgg{
+            clip-path: polygon(13% 0, 100% 0, 100% 100%, 25% 100%);
+
+        }.imggg{
+            clip-path: polygon(0 0, 100% 0, 86% 100%, 0 100%);
+        }.hov:hover{
+            color: darkkhaki;
+        }.yo:hover{
+            background-color: rgb(0, 68, 255);
+        }

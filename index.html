@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Sea Life</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/all.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <nav class="navbar navbar-expand-sm navbar-light bg-light bg-opacity-50 fixed-top">
+    <div class="container-fluid">
+      <img src="imags11/Capture.PNG" alt="Avatar Logo" style="width:70px; height:70px;" class="rounded-pill">
+      <a class="navbar-brand s " href="javascript:void(0)">OCEAN LIFE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+        
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link text-info r" href="javascript:void(0)">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info r" href="javascript:void(0)">Link</a>
+          </li>
+          
+          <li class="nav-item dropdown rounded border border-info bg-opacity-50">
+            <a class="nav-link dropdown-toggle text-info r" href="#" role="button"
+            data-bs-toggle="dropdown">Trips</a>
+            <ul class="dropdown-menu " style="opacity: 0.8;">
+              <li ><a class="dropdown-item  text-info " href="#">Pacific Ocean</a></li>
+              <li ><a class="dropdown-item  text-info" href="#">Atlantic Ocean</a></li>
+              <li ><a class="dropdown-item  text-info" href="#">Indian Ocean</a></li>
+              <li ><a class="dropdown-item  text-info" href="#">Southern Ocean</a></li>
+              <li ><a class="dropdown-item  text-info" href="#">Arctic Ocean </a></li>
+              <hr class="border border-info">
+              <li ><a class="dropdown-item  text-info" href="#">Great Barrier Reef</a></li>
+              <li ><a class="dropdown-item  text-info" href="#">Red Sea Coral Reef</a></li>
+              <li ><a class="dropdown-item  text-info" href="#">more...</a></li>
+            </ul>
+          </li> 
+          
+          <li class="nav-item">
+            <a class="nav-link text-info r" href="javascript:void(0)">About</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control border border-info me-2 " type="text" placeholder="Search">
+          <button class="btn btn-info me-2" type="button">Search</button>
+          
+         
+
+          <button type="button" class="btn btn-info" data-bs-toggle="modal"  data-bs-target="#myModall">
+            login
+          </button>
+        
+        
+       
+        
+
+
+
+
+          
+      </div>
+  </nav>
+
+ <!-- The Modal -->
+ <div class="modal" id="myModall">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header bg-info">
+        <h4 class="modal-title text-light">login</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form action="/action_page.php">
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label text-info">Email address</label>
+            <input type="email" class="form-control   border-info" id="email" name="email">
+            <span class="span1 text-muted">we will never share your email with anyone else</span>
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label text-info">Password</label>
+            <input type="password" class="form-control  border-info" id="pwd" name="pswd">
+            
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input bg-info" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+            <label class="form-check-label " for="mySwitch">Remember me</label>
+          </div>
+          <!-- <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember"> Remember me
+            </label>
+          </div>
+           -->
+        </form>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-info me-auto ">Submit</button>
+        <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="clearfix  icon">
+  <i class="fab fa-facebook-square " style="display:block;"></i>
+  <i class="fab fa-whatsapp-square mt-1" style="display:block; top:30%;"></i>
+  <i class="fab fa-twitter-square  mt-2" style="display:block;top:40%;"></i>
+  <i class="fab fa-linkedin mt-3" style="display:block;top:50%"></i>
+  <i class="fab fa-instagram-square mt-4" style="display:block;top:60%;"></i>
+</div>
+
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide my-30" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators my-30">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner " style="height: 99vh;">
+      <div class="carousel-item active" style="height: 100%;">
+        <img src="imags11/Cre.PNG" alt="Los Angeles" class="d-block w-100 h-100">
+        <div class="carousel-caption bg-info bg-opacity-50">
+          <h3>under ocean water</h3>
+          <p>Magnificent coral reefs and many colorful and diverse fish</p>
+          <button type="button"  class="btn btn-info text-center  text-white">have idea</button>
+        </div>
+      </div>
+      <div class="carousel-item " style="height: 100%;">
+        <img src="imags11/picture1.jpg" alt="Chicago" style="height: 100%;" class="d-block w-100">
+        <div class="carousel-caption bg-info bg-opacity-50">
+          <h3>under ocean water</h3>
+          <p>Magnificent coral reefs and many colorful and diverse fish</p>
+          <button type="button"  class="btn btn-info text-center  text-white">have idea</button>
+        </div>
+      </div>
+      <div class="carousel-item" style="height: 100%;">
+        <img src="imags11/picture2.jpg" alt="New York" style="height: 100%;" class="d-block w-100">
+        <div class="carousel-caption bg-info bg-opacity-50">
+          <h3>under ocean water</h3>
+          <p>Magnificent coral reefs and many colorful and diverse fish</p>
+          <button type="button"  class="btn btn-info text-center  text-white">have idea</button>
+        </div>
+      </div>
+      <div class="carousel-item" style="height: 100%;">
+        <img src="imags11/Underwater Photo Gallery_ Best of Tubbataha’s Coral Reefs _.jpg" alt="New York" style="height: 100%;" class="d-block w-100">
+        <div class="carousel-caption bg-info bg-opacity-50">
+          <h3>under ocean water</h3>
+          <p>Magnificent coral reefs and many colorful and diverse fish</p>
+          <button type="button"  class="btn btn-info text-center text-white">have idea</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+
+
+
+
+  <div class="container-fluid  px-0">
+    
+    <div class=" p-5  bgg text-white rounded">
+      <h1 class="s">welcome</h1>
+      <p>Beneath the ocean's surface, you find yourself in a wholly different world, where life pulsates with vibrant colors and the waters sway with gentle movements. You encounter scenes that take your breath away, from the diversity of fish to the beauty of coral reefs and the enigma of the deep.</p>
+        <button type="button" class="btn bg-light  text-info  me-auto ">learn more</button>
+    </div>
+  </div>
+<hr>
+  
+  <div class="container-fluid p-5 my-2 bbg text-center  rounded text-white"> 
+    <h2 class="hh2">ocean is Another world</h2>
+  </div>
+
+
+  <div id="accordion">
+
+    <div class="card">
+      <div class="card-header">
+        <h2 class="s sn" style="display: inline;">Waikiki Beach - Honolulu, Hawaii, Pacific Ocean</h2>
+        <a class="btn  float-end" data-bs-toggle="collapse" href="#collapseOne">
+          <i class="fas fa-chevron-down " ></i>
+          
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+        <div class="card-body">
+          Waikiki Beach is one of the most famous beaches in the world, located in Honolulu, Hawaii, along the shores of the Pacific Ocean. Known for its stunning golden sand and gentle waves, Waikiki Beach offers a picturesque setting for swimming, surfing, and sunbathing. The beach is surrounded by high-rise hotels, shops, and restaurants, creating a vibrant atmosphere that attracts visitors from all over the globe.
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h2 class="s" style="display: inline;">Bondi Beach - Sydney, Australia, Pacific Ocean</h2>
+        <a class="collapsed btn float-end" data-bs-toggle="collapse" href="#collapseTwo">
+          <i class="fas fa-chevron-down " ></i>
+        </a>
+       
+      </div>
+      <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Bondi Beach is one of Sydney's most iconic beaches, situated along the shores of the Pacific Ocean in Australia. With its pristine white sand and clear blue waters, Bondi Beach is a popular destination for surfers, swimmers, and sunbathers alike. The beach is also famous for its coastal walk, offering stunning views of the surrounding cliffs and rock formations.
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h2 class="s" style="display: inline;">Copacabana Beach - Rio de Janeiro, Brazil, Atlantic Ocean</h2>
+        <a class="collapsed btn float-end" data-bs-toggle="collapse" href="#collapseThree">
+          <i class="fas fa-chevron-down " ></i>
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Copacabana Beach is a world-renowned stretch of coastline located in Rio de Janeiro, Brazil, overlooking the Atlantic Ocean. With its vibrant atmosphere, golden sands, and lively promenade, Copacabana Beach is a favorite destination for tourists and locals alike. Visitors can enjoy a variety of water sports, beach volleyball, and leisurely strolls along the iconic boardwalk.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="container-fluid p-2 mt-2  bbg text-center  rounded text-white" > 
+    <h2 class="hh2" >translate to English</h2>
+  </div>
+  <div class="container-fluid co p-5 rounded">
+ <h2 style="display: inline;" class="text-white">write and translate</h2>
+ <h2 style="display:inline-block;">press here</h2>
+  <button type="button" style="display:block;" class="btn btn-info mb-2" data-bs-toggle="tooltip" title="copied">cope</button>
+  <textarea class="form-control" rows="5" id="comment" name="text">translate:</textarea> 
+   </div>
+
+  
+  <hr>
+
+   <div class="container-fluid p-2 mt-2  bbg text-center  rounded text-white" > 
+    <h2 class="hh2" >translate to Frensh</h2>
+  </div>
+  <div class="container-fluid co p-5 rounded">
+ <h2 style="display: inline;" class="text-white">write and translate</h2>
+ <h2 style="display:inline-block;">press here</h2>
+  <button type="button" style="display:block;" class="btn btn-info mb-2" data-bs-toggle="tooltip" title="copied">cope</button>
+  <textarea class="form-control" rows="5" id="comment" name="text">translate:</textarea> 
+   </div>
+
+   
+  
+
+<hr>
+   <div class="container-fluid p-2 mt-2  bbg text-center  rounded text-white" > 
+    <h2 class="hh2" >translate to German</h2>
+  </div>
+  <div class="container-fluid co p-5 rounded">
+ <h2 style="display: inline;" class="text-white">write and translate</h2>
+ <h2 style="display:inline-block;">press here</h2>
+  <button type="button" style="display:block;" class="btn btn-info mb-2"  data-bs-toggle="tooltip" title="copied">cope</button>
+  <textarea class="form-control" rows="5" id="comment" name="text">translate:</textarea> 
+   </div>
+
+   
+  
+<hr>
+<div class="container-fluid si"></div>
+
+<div class="container-fluid p-3   bbg text-center  rounded " > 
+  <h2 class="hh2 s " style="font-size: 40px;">The most famous ocean creatures</h2>
+</div>
+
+
+
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card car" style="width:400px">
+          <img class="card-img-top" src="imags11/Lynn.jpg" style="height:450px;" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title" style="display:inline">orca</h4>
+            <a href="#" class="btn btn-info float-end">learn more</a>
+            <p class="card-text">Orcas are found in oceans around the world. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 ">
+        <div class="card car" style="width:400px">
+          <img class="card-img-top" src="imags11/Kwal.jpg" style="height:450px;" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title" style="display:inline">jellyfish</h4>
+            <a href="#" class="btn btn-info float-end">learn more</a>
+            <p class="card-text">Jellyfish are found in oceans from coastal areas to the open sea </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card car" style="width:400px">
+          <img class="card-img-top" src="imags11/doulphen.jpg" style="height: 450px;" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title" style="display:inline">dolphin</h4>
+            <a href="#" class="btn btn-info float-end">learn more</a>
+            <p class="card-text">Dolphins are found in oceans and seas all around the world</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 my-3">
+        <div class="card car" style="width:400px">
+          <img class="card-img-top" src="imags11/hours.jpg" style="height: 450px;" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title" style="display:inline"> sea cow</h4>
+            <a href="#" class="btn btn-info float-end">learn more</a>
+            <p class="card-text">The sea cow, or manatee, lives in shallow waters, river mouths, brackish  </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 my-3">
+        <div class="card car" style="width:400px">
+          <img class="card-img-top" src="imags11/octopes.jpg" style="height: 450px;" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title" style="display:inline">Octopuse</h4>
+            <a href="#" class="btn btn-info float-end">learn more</a>
+            <p class="card-text">Octopuses are found in inhabiting various marine environments from coral reefs </p>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 my-3">
+        <div class="card car" style="width:400px">
+          <img class="card-img-top" src="imags11/Sea turtle sea life.jpg" style="height: 450px;" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title" style="display:inline">sea turtle</h4>
+            <a href="#" class="btn btn-info float-end">learn more</a>
+            <p class="card-text">Sea turtles, also known as marine turtles, live in various oceans around the world,  </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 ">
+        <div class="card car" style="width:400px">
+          <img class="card-img-top" src="imags11/star.jpg" style="height: 450px;" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title" style="display:inline">starfish</h4>
+            <a href="#" class="btn btn-info float-end">learn more</a>
+            <p class="card-text">Starfish, also known as sea stars, live in various marine environments around the world</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 ">
+        <div class="card car" style="width:400px">
+          <img class="card-img-top" src="imags11/Whale Shark.jpg" style="height: 450px;" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title" style="display:inline">Whale Shark</h4>
+            <a href="#" class="btn btn-info float-end">learn more</a>
+            <p class="card-text">Whale sharks are found in tropical and warm temperate oceans around the world. </p>
+          
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="container-fluid ci mt-5"></div>
+
+<hr>
+<div class="container">
+<div class="row">
+  <div class="col-lg-4"><div class="first rounded-5 dd4">
+    <div class="overlay1 rounded-5">
+        <div class="content1  h-50" >
+            <h2 class="ms-4 pt-5 text-white">Manta rays</h2>
+            <i class="far fa-clock ms-4 text-white"><span class=" text-white">octupur,2024</span></i>
+        </div>
+            <div class="content1 mt-5">
+            <img src="imags11/Banking.jpg" alt="Avatar Logo" style="width:90px;height:105px; " class=" rounded-circle  border border-4 ms-4"> 
+            <p class=" ms-4 mb-5 text-white">Manta rays are filter feeders, meaning they primarily consume plankton and small fish by filtering them from the water.</p>
+            
+        </div>
+    </div>
+</div></div>
+  <div class="col-lg-4"><div class="second rounded-5 dd4">
+    <div class="overlay1 rounded-5">
+      <div class="content1  h-50" >
+        <h2 class="ms-4 pt-5 text-white">the shark</h2>
+        <i class="far fa-clock ms-4 text-white"><span class=" text-white">octupur,2024</span></i>
+    </div>
+        <div class="content1 mt-5">
+        <img src="imags11/8a914944-b2c6-461a-b775-02fd8c5034a6.jpg" alt="Avatar Logo" style="width:90px;height:105px; " class=" rounded-circle  border border-4 ms-4"> 
+        <p class=" ms-4 mb-5 text-white">Sharks are carnivorous predators and have diverse diets depending on their species and habitat</p>
+        
+    </div>
+    </div>
+</div></div>
+  <div class="col-lg-4"><div class="third rounded-5 dd4">
+    <div class="overlay1 rounded-5">
+      <div class="content1  h-50" >
+        <h2 class="ms-4 pt-5 text-white">the Whale</h2>
+        <i class="far fa-clock ms-4 text-white"><span class=" text-white">octupur,2024</span></i>
+    </div>
+        <div class="content1 mt-5">
+        <img src="imags11/3091b81a-7de0-4008-bbc2-765cbc0819f2.jpg" alt="Avatar Logo" style="width:90px;height:105px; " class=" rounded-circle  border border-4 ms-4"> 
+        <p class=" ms-4 mb-5 text-white">many baleen whale species feed on plankton, which includes tiny organisms such as copepods and small fish larvae</p>
+        
+    </div>
+    </div>
+</div></div>
+</div>
+</div>
+      
+ <br>
+ <br>
+ <br>
+/thanks card -->
+<hr>
+
+<h2 class="s text-center ">ocean</h2>
+
+
+<div class="container  coi shadow-lg  my-5 rounded pe-0">
+  <img src="imags11/Island.jpg" class="float-end rounded-end pe-0  imgg" style="height:413px;">
+  <h2 class="" style="color:rgb(3, 39, 150);">Wonderful ocean Island</h2>
+  <i class="fas fa-calendar-alt"><span>may,25th,2024</span></i>
+  <hr class="hr1 bg-primary rounded-5">
+  <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias delectus, expedita assumenda culpa, praesentium animi aspernatur quos esse totam alias sint ducimus laboriosam maiores itaque magnam ratione deserunt odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, recusandae officia perferendis facilis labore, similique molestiae aliquid quasi sed eveniet molestias earum error dolore corporis distinctio, provident cumque. Tempora, culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero eum enim voluptate reiciendis dolore itaque temporibus quidem ex quas non praesentium eos, quam eaque autem repellat animi excepturi fuga. Temporibus.</p>
+  
+  <button type="button" class="btn btn-info my-5 text-dark yo"><i class="fas fa-tag">podcast</i></button>
+  <button type="button" class="btn btn-info my-5 text-dark yo"><i class="fas fa-clock">55 mins</i></button>
+  <button type="button" class="btn btn-info my-5 text-primary yo"><i class="fas fa-play">play Episode</i></button>
+</div>
+
+<div class="container  coi shadow-lg my-5  rounded ps-0">
+  <img src="imags11/Pianemo Islands.jpg" class="float-start rounded-start ps-0 imggg" style="height:409px;">
+  <h2 class="" style="color:rgb(3, 39, 150)">Wonderful ocean Island</h2>
+  <i class="fas fa-calendar-alt"><span>may,25th,2024</span></i>
+  <hr class="hr1 bg-primary rounded-5">
+  <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias delectus, expedita assumenda culpa, praesentium animi aspernatur quos esse totam alias sint ducimus laboriosam maiores itaque magnam ratione deserunt odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, recusandae officia perferendis facilis labore, similique molestiae aliquid quasi sed eveniet molestias earum error dolore corporis distinctio, provident cumque. Tempora, culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero eum enim voluptate reiciendis dolore itaque temporibus quidem ex quas non praesentium eos, quam eaque autem repellat animi excepturi fuga. Temporibus.</p>
+  
+  <button type="button" class="btn btn-info my-5 text-dark yo"><i class="fas fa-tag">podcast</i></button>
+  <button type="button" class="btn btn-info my-5 text-dark yo"><i class="fas fa-clock">55 mins</i></button>
+  <button type="button" class="btn btn-info my-5 text-primary yo"><i class="fas fa-play">play Episode</i></button>
+</div>
+<div class="container  coi shadow-lg   rounded pe-0">
+  <img src="imags11/Tropical Island with Rainbow.jpg" class="float-end rounded-end  pe-0 imgg"  style="height:434px;" >
+  <h2 class="" style="color:rgb(3, 39, 150);">Wonderful ocean Island</h2>
+  <i class="fas fa-calendar-alt"><span>may,25th,2024</span></i>
+  <hr class="hr1 bg-primary rounded-5">
+  <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias delectus, expedita assumenda culpa, praesentium animi aspernatur quos esse totam alias sint ducimus laboriosam maiores itaque magnam ratione deserunt odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, recusandae officia perferendis facilis labore, similique molestiae aliquid quasi sed eveniet molestias earum error dolore corporis distinctio, provident cumque. Tempora, culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero eum enim voluptate reiciendis dolore itaque temporibus quidem ex quas non praesentium eos, quam eaque autem repellat animi excepturi fuga. Temporibus.</p>
+  
+  <button type="button" class="btn btn-info my-5 text-dark yo"><i class="fas fa-tag">podcast</i></button>
+  <button type="button" class="btn btn-info my-5 text-dark yo"><i class="fas fa-clock">55 mins</i></button>
+  <button type="button" class="btn btn-info my-5 text-primary yo"><i class="fas fa-play">play Episode</i></button>
+</div>
+<div class="container  coi shadow-lg my-5  rounded ps-0">
+  <img src="imags11/bonaire island.jpg" class="float-start rounded-start ps-0  imggg"  style="height:409px;">
+  <h2 class="" style="color:rgb(3, 39, 150);">Wonderful ocean Island</h2>
+  <i class="fas fa-calendar-alt"><span>may,25th,2024</span></i>
+  <hr class="hr1 bg-primary rounded-5">
+  <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias delectus, expedita assumenda culpa, praesentium animi aspernatur quos esse totam alias sint ducimus laboriosam maiores itaque magnam ratione deserunt odio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, recusandae officia perferendis facilis labore, similique molestiae aliquid quasi sed eveniet molestias earum error dolore corporis distinctio, provident cumque. Tempora, culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero eum enim voluptate reiciendis dolore itaque temporibus quidem ex quas non praesentium eos, quam eaque autem repellat animi excepturi fuga. Temporibus.</p>
+  
+  <button type="button" class="btn btn-info my-5 text-dark yo"><i class="fas fa-tag">podcast</i></button>
+  <button type="button" class="btn btn-info my-5 text-dark yo"><i class="fas fa-clock">55 mins</i></button>
+  <button type="button" class="btn btn-info my-5 text-primary yo"><i class="fas fa-play">play Episode</i></button>
+</div>
+<br>
+<br>
+<br>
+<h2 class="s text-center ">ocean</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 mx-3 shadow-lg rounded-2 "style="width: 300px;height:200px;">
+      <h2 class=" text-center text-info">subscribe Now</h2>
+      <img src="imags11/twiter.PNG" class="rounded-4 mx-auto mt-4 d-block  im" style="height: 80px;" alt="Cinque Terre">
+    <h2 class="text-center text-info">go to link</h2>
+    </div>
+    <div class="col-lg-3 mx-3 shadow-lg rounded-2" style="width: 300px;height:200px;"><h2 class="text-info text-center ">follow</h2>
+      <img src="imags11/linkedin.PNG" class="rounded-4 mx-auto mt-4 d-block  im" style="height: 80px;" alt="Cinque Terre">
+    <h2 class="text-center text-info">go to link</h2></div>
+    <div class="col-lg-3 mx-3 shadow-lg rounded-2" style="width: 300px;height:200px;"><h2 class="text-info text-center ">like the page</h2>
+      <img src="imags11/whatapp.PNG" class="rounded-4 mx-auto mt-4 d-block  im" style="height: 80px;" alt="Cinque Terre">
+    <h2 class="text-center text-info"> go yo link</h2></div>
+    <div class="col-lg-3 ms-3 shadow-lg rounded-2" style="width: 300px; height:200px;"><h2 class="text-info text-center ">watch videos</h2>
+      <img src="imags11/instegram.PNG" class="rounded-4 mx-auto mt-4 d-block  im" style="height: 80px;" alt="Cinque Terre">
+    <h2 class="text-center text-info">go to link</h2></div>
+  </div>
+</div>
+
+
+<div class="container-fluid mt-5 h-auto bbg" >
+  <div class="row mt-5">
+    <div class="col-lg-4 mt-4">
+       <div class="border border-end-0 border border-start-0 border-light ms-5 py-4  ">
+        <img src="imags11/Capture.PNG" alt="Avatar Logo" style="width:70px; height:70px;" class="im ms-5  rounded-pill">
+        <span class="text-white">Good Company</span>
+       </div>
+       
+       <p class="text-center mt-3 text-white">Tel:000-000-000</p>
+       <p class="text-center text-white my-5">Address:world</p>
+       <p class="text-center text-white">Fax:000-000-000</p>
+    </div>
+    <div class="col-lg-4 mt-4">
+      <div class="border border-end-0 border border-start-0 border-light ms-5 py-4  ">
+        <img src="imags11/Capture.PNG" alt="Avatar Logo" style="width:70px; height:70px;" class="im ms-5  rounded-pill">
+        <span class="text-white">Important links</span>
+       </div>
+       
+       <p class="text-center mt-3 hov">Visit us</p>
+       <p class="text-center hov my-5">Take a look</p>
+       <p class="text-center hov">Your health is more important</p>
+    </div>
+    <div class="col-lg-4 mt-4">
+      <div class="border border-end-0 border border-start-0 border-light ms-5 py-4  ">
+        <img src="imags11/Capture.PNG" alt="Avatar Logo" style="width:70px; height:70px;" class="im ms-5  rounded-pill">
+        <span class="text-white">vision</span>
+       </div>
+       
+       <p class="text-center mt-3 text-white">Serveices for all</p>
+       <p class="text-center text-white my-5">provide best serveices</p>
+       <p class="text-center text-white">you will be better than before</p>
+    </div>
+  </div>
+  <div class="border border-end-0 border border-start-0 border-light ms-5 py-4 mb-4 ">
+  <h4 class="s text-center ">COPYRIGHT@2024SHIMAAHUSSIEN EL SAID.GOOD COMPANY.ALL RIGHT</h4>
+</div>
+<br>
+<br>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
